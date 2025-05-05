@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Space+Mono&display=swap');
+
+:root {
+    --coral-main: #FF6F61;
+    --coral-dark: #E05A4F;
+    --coral-light: #FF8577;
+    --pixel-black: #0D1117;
+    --pixel-blue: #2F3E75;
+}
+
+/* Global Styles */
+.stApp {
+    background-color: var(--pixel-black);
+}
+
+h1, h2, h3 {
+    font-family: 'VT323', monospace !important;
+    color: var(--coral-main) !important;
+    text-shadow: 2px 2px 0px var(--coral-dark);
+    letter-spacing: 1px;
+}
+
+p, li, .stMarkdown {
+    font-family: 'Space Mono', monospace !important;
+    color: #FFFFFF;
+}
+
+/* Button Styling */
+.stButton>button {
+    font-family: 'VT323', monospace !important;
+    background-color: var(--coral-main);
+    color: white;
+    border: 4px solid var(--coral-dark);
+    box-shadow: 4px 4px 0px var(--coral-dark);
+    transition: all 0.1s ease;
+}
+
+.stButton>button:hover {
+    box-shadow: 2px 2px 0px var(--coral-dark);
+    transform: translate(2px, 2px);
+}
+
+/* Widget Styling */
+.stSlider, .stSelectbox {
+    border: 2px solid var(--coral-dark);
+    padding: 4px;
+}
+
+.stSlider .stSlider>div>div {
+    background-color: var(--coral-main) !important;
+}
+
+/* Metric Card */
+.metric-container {
+    background-color: var(--pixel-blue);
+    border: 4px solid var(--coral-main);
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 8px 8px 0px var(--coral-dark);
+    margin-bottom: 20px;
+}
+
+/* Progress Bar */
+.stProgress > div > div {
+    background-color: var(--coral-main) !important;
+}
+
+/* Divider */
+hr {
+    border-top: 4px dashed var(--coral-light);
+}
+
+/* Data tables */
+.dataframe {
+    font-family: 'Space Mono', monospace !important;
+    border: 2px solid var(--coral-dark);
+}
+
+/* Sidebar */
+.css-1d391kg {
+    background-color: var(--pixel-blue);
+}
+
+/* Inputs */
+.stTextInput>div>div>input {
+    background-color: var(--pixel-black);
+    color: white;
+    border: 2px solid var(--coral-dark);
+    font-family: 'Space Mono', monospace !important;
+}
+
+/* Multiselect */
+.stMultiSelect>div>div>div:first-child {
+    background-color: var(--pixel-black);
+    border: 2px solid var(--coral-dark);
+}
+
+.stMultiSelect>div>div>div:first-child>div:first-child {
+    font-family: 'Space Mono', monospace !important;
+    color: white;
+}
+
+/* Achievement badges */
+.achievement-badge {
+    background-color: #38761d;
+    border: 2px solid var(--coral-light);
+    padding: 10px;
+    font-family: 'VT323', monospace !important;
+    margin-top: 10px;
+}
+
+/* Tooltips */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted var(--coral-main);
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: var(--pixel-blue);
+    color: #fff;
+    text-align: center;
+    border: 2px solid var(--coral-main);
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-family: 'Space Mono', monospace !important;
+    font-size: 12px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Animation for achievements */
+@keyframes achievement-unlock {
+    0% { transform: scale(0.5); opacity: 0; }
+    70% { transform: scale(1.2); }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.achievement-unlocked {
+    animation: achievement-unlock 0.5s ease-out;
+}

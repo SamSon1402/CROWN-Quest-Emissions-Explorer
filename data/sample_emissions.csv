@@ -1,0 +1,76 @@
+Category,Tier,Region,Emissions (tCO2e),Data Quality Score
+Raw Materials,Tier 1,Europe,245,4
+Raw Materials,Tier 1,North America,312,5
+Raw Materials,Tier 1,Asia,423,3
+Raw Materials,Tier 1,South America,198,2
+Raw Materials,Tier 1,Africa,156,1
+Raw Materials,Tier 2,Europe,189,4
+Raw Materials,Tier 2,North America,223,4
+Raw Materials,Tier 2,Asia,347,3
+Raw Materials,Tier 2,South America,132,2
+Raw Materials,Tier 2,Africa,98,1
+Raw Materials,Tier 3,Europe,112,3
+Raw Materials,Tier 3,North America,134,3
+Raw Materials,Tier 3,Asia,208,2
+Raw Materials,Tier 3,South America,79,1
+Raw Materials,Tier 3,Africa,59,1
+Manufacturing,Tier 1,Europe,287,5
+Manufacturing,Tier 1,North America,342,5
+Manufacturing,Tier 1,Asia,389,4
+Manufacturing,Tier 1,South America,187,3
+Manufacturing,Tier 1,Africa,112,2
+Manufacturing,Tier 2,Europe,231,5
+Manufacturing,Tier 2,North America,274,4
+Manufacturing,Tier 2,Asia,312,4
+Manufacturing,Tier 2,South America,150,3
+Manufacturing,Tier 2,Africa,90,2
+Manufacturing,Tier 3,Europe,139,4
+Manufacturing,Tier 3,North America,164,4
+Manufacturing,Tier 3,Asia,187,3
+Manufacturing,Tier 3,South America,90,2
+Manufacturing,Tier 3,Africa,54,1
+Transport,Tier 1,Europe,187,5
+Transport,Tier 1,North America,231,5
+Transport,Tier 1,Asia,276,4
+Transport,Tier 1,South America,142,3
+Transport,Tier 1,Africa,98,2
+Transport,Tier 2,Europe,149,4
+Transport,Tier 2,North America,185,4
+Transport,Tier 2,Asia,221,3
+Transport,Tier 2,South America,114,3
+Transport,Tier 2,Africa,78,2
+Transport,Tier 3,Europe,89,4
+Transport,Tier 3,North America,111,3
+Transport,Tier 3,Asia,133,3
+Transport,Tier 3,South America,68,2
+Transport,Tier 3,Africa,47,1
+Packaging,Tier 1,Europe,213,5
+Packaging,Tier 1,North America,265,5
+Packaging,Tier 1,Asia,318,4
+Packaging,Tier 1,South America,159,3
+Packaging,Tier 1,Africa,106,2
+Packaging,Tier 2,Europe,170,4
+Packaging,Tier 2,North America,212,4
+Packaging,Tier 2,Asia,254,3
+Packaging,Tier 2,South America,127,3
+Packaging,Tier 2,Africa,85,2
+Packaging,Tier 3,Europe,102,4
+Packaging,Tier 3,North America,127,3
+Packaging,Tier 3,Asia,152,3
+Packaging,Tier 3,South America,76,2
+Packaging,Tier 3,Africa,51,1
+End of Life,Tier 1,Europe,128,4
+End of Life,Tier 1,North America,159,4
+End of Life,Tier 1,Asia,191,3
+End of Life,Tier 1,South America,96,2
+End of Life,Tier 1,Africa,64,1
+End of Life,Tier 2,Europe,102,4
+End of Life,Tier 2,North America,127,3
+End of Life,Tier 2,Asia,152,3
+End of Life,Tier 2,South America,76,2
+End of Life,Tier 2,Africa,51,1
+End of Life,Tier 3,Europe,61,3
+End of Life,Tier 3,North America,76,3
+End of Life,Tier 3,Asia,91,2
+End of Life,Tier 3,South America,46,1
+End of Life,Tier 3,Africa,30,1
